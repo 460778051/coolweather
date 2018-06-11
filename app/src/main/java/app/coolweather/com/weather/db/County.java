@@ -4,8 +4,8 @@ package app.coolweather.com.weather.db;
 
 import org.litepal.crud.DataSupport;
 
- //   public class County extends DataSupport {
- public class County {
+ public class County extends DataSupport {
+
 
         private int id;
 
@@ -48,4 +48,4 @@ import org.litepal.crud.DataSupport;
         }
 
     }
-}
+
