@@ -14,6 +14,7 @@ package app.coolweather.com.weather.util;
         import app.coolweather.com.weather.db.City;
         import app.coolweather.com.weather.db.County;
         import app.coolweather.com.weather.db.Province;
+        import app.coolweather.com.weather.gson.Weather;
 
 public class Utility {
 
@@ -92,7 +93,7 @@ public class Utility {
     /**
      * 将返回的JSON数据解析成Weather实体类
      */
-    /*
+
     public static Weather handleWeatherResponse(String response) {
         try {
             JSONObject jsonObject = new JSONObject(response);
@@ -104,5 +105,5 @@ public class Utility {
         }
         return null;
     }
-    */
+
 }
