@@ -2,6 +2,8 @@ package app.coolweather.com.weather.db;
 
 //https://github.com/460778051/coolweather.git          地址
 
+//代码地址：    https://github.com/460778051/coolweather#coolweather
+
 import org.litepal.crud.DataSupport;
 
  public class County extends DataSupport {
